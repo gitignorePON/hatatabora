@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Хата Табора — Дом Манки!</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #0f0f15;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #ff00ff;
+      box-shadow: 0 0 20px #ff00ff, 0 0 40px rgba(255, 0, 255, 0.3);
+      margin: 0 auto 30px;
+      background: center/cover no-repeat;
+      /* Укажите путь к аватарке здесь: */
+      background-image: url('taborhat.jpg');
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.7;
+      margin-bottom: 30px;
+      color: #e0e0ff;
+    }
+
+    .neon-button {
+      display: inline-block;
+      padding: 16px 40px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #000;
+      background: #00ffff;
+      text-decoration: none;
+      border-radius: 50px;
+      box-shadow: 0 0 15px #00ffff, 0 0 30px rgba(0, 255, 255, 0.5);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .neon-button:hover {
+      background: #00cccc;
+      box-shadow: 0 0 20px #00ffff, 0 0 40px rgba(0, 255, 255, 0.7);
+      transform: scale(1.05);
+    }
+
+    .neon-button:active {
+      transform: scale(0.98);
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .neon-button {
+        padding: 14px 30px;
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="avatar"></div>
+    <h1>Хата Табора 🐒</h1>
+    <p>
+      Добро пожаловать в уютный уголок интернета, где царят веселье, дружба и бесконечные манки!  
+      В нашем Telegram-канале вы найдёте самые смешные гифки, трогательные видео, яркие картинки и всё, что связано с обаятельными обезьянками — или, как мы их любим называть, <strong>манки</strong>!  
+    </p>
+    <p>
+      Присоединяйтесь к нашему дружному чату и каналу — здесь всегда рады новым друзьям, хорошему настроению и обезьяньему хаосу! 🍌
+    </p>
+    <a href="https://t.me/HataTabora" target="_blank" class="neon-button">Войти в Хату 🐵</a>
+    <footer>
+      © 2025 Хата Табора. Все манки под защитой.
+    </footer>
+  </div>
+</body>
+</html>
